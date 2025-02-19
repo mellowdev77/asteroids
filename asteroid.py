@@ -12,7 +12,7 @@ class Asteroid(CircleShape):
                            center=self.position, 
                            radius=self.radius, 
                            width=2, 
-                           color="white")
+                           color="pink")
 
     def update(self, dt):
         self.position += self.velocity * dt 
